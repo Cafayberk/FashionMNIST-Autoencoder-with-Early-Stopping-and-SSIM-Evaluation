@@ -19,7 +19,7 @@ This project was developed and tested in Google Colab. To run locally, install t
 ```bash
 pip install torch torchvision matplotlib scipy numpy
 
-## Usage
+  Usage
 
 1. Clone the repository: git clone https://github.com/yourusername/fashionmnist-autoencoder.git
 cd fashionmnist-autoencoder
@@ -36,7 +36,7 @@ Display reconstructed images alongside the originals
 
 Print the average SSIM score
 
-## Example Output
+  Example Output
 
 Original vs. reconstructed FashionMNIST images
 
