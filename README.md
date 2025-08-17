@@ -19,27 +19,28 @@ This project was developed and tested in Google Colab. To run locally, install t
 ```bash
 pip install torch torchvision matplotlib scipy numpy
 
-  Usage
+Usage
 
-1. Clone the repository: git clone https://github.com/yourusername/fashionmnist-autoencoder.git
-cd fashionmnist-autoencoder
+  1. Clone the repository: git clone https://github.com/yourusername/fashionmnist-autoencoder.git
+  cd fashionmnist-autoencoder
 
-2. Run the notebook or Python script in Google Colab or locally: python autoencoder.py
+  2. Run the notebook or Python script in Google Colab or locally: python autoencoder.py
 
-3. The script will:
+  3. The script will:
 
-Train the Autoencoder on the FashionMNIST dataset
+    Train the Autoencoder on the FashionMNIST dataset
 
-Apply early stopping if no improvement is observed
+    Apply early stopping if no improvement is observed
 
-Display reconstructed images alongside the originals
+    Display reconstructed images alongside the originals
 
-Print the average SSIM score
+    Print the average SSIM score
 
-  Example Output
+Example Output
 
-Original vs. reconstructed FashionMNIST images
+  Original vs. reconstructed FashionMNIST images
 
-Average SSIM score reported after evaluation
+  Average SSIM score reported after evaluation
+
 
 This project is released under the MIT License.
